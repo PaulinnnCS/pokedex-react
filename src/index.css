@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .scrollbar-custom::-webkit-scrollbar {
+      width: 5px;
+      border-radius: 10px;
+    }
+
+}
+
+.text-shadow {
+  -webkit-text-stroke: 0.5px #353535
+}
