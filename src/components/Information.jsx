@@ -1,7 +1,6 @@
 import ProgressBar from "./ProgressBar";
 import { useState, useEffect } from "react";
 import clsx from "clsx";
-import { createPokemonBlock } from "../utils/functions";
 import getData from "../utils/getData";
 import { X } from "lucide-react";
 import { useContext } from "react";

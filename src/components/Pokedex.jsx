@@ -1,11 +1,9 @@
-import PatternStyle from "./PatternStyle";
 import PokemonBox from "./PokemonBox";
-import { Search, Circle, LoaderCircleIcon } from "lucide-react";
-import { useEffect, useState, useContext, useRef } from "react";
+import { Search } from "lucide-react";
+import { useState, useContext, useRef } from "react";
 import Information from "./Information";
 import { PokedexContext } from "../contexts/DataPokedexContext";
-import { useSearchParams } from "react-router-dom";
-import { gsap } from "gsap";
+
 
 function Pokedex() {
   const { pokedex, isLoading } = useContext(PokedexContext);

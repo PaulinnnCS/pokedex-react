@@ -3,13 +3,11 @@ import { ClockContext } from "../contexts/ClockContext";
 
 export default function Clock() {
   const [secondCounter, setSecondCounter] = useState(0);
-  const [isRunning, setIsRunning] = useState(false);
-
+ 
   const {
     Clock,
     toggleClock,
     isClockRunning,
-    toggleIsClockRunning,
     auxClock,
     toggleAuxClock,
   } = useContext(ClockContext);

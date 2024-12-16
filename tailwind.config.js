@@ -138,6 +138,7 @@ const allColors = {
   ...elementsColors
 }
 
+import tailwindForms from '@tailwindcss/forms';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -164,7 +165,8 @@ export default {
     },
   },
   plugins: [
-    require('tailwind-scrollbar'),
+    tailwindForms(),
+   
   ],
 }
 

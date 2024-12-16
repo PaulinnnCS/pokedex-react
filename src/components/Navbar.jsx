@@ -1,9 +1,9 @@
 import { ChevronLeft } from "lucide-react";
 import { gsap } from "gsap";
-import { useContext, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { useNavigate, Link } from "react-router-dom";
-import { PokedexContext } from "../contexts/DataPokedexContext";
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(true);
